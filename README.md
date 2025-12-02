@@ -1,86 +1,148 @@
-# 🔎 Global Sales Intelligence – Power BI Project
+Hub:
 
-## 📌 Overview
-Global Sales Intelligence is a comprehensive Power BI project that provides a complete view of global sales performance, profit margins, sales channels, and regional insights.  
-This repository includes the Power BI report, related datasets (if available), and a dashboard preview image.
+📊 Global Sales Intelligence Dashboard – Power BI
+📌 Overview
 
----
+This interactive Power BI dashboard provides a comprehensive global view of sales performance, covering key financial metrics, regional analysis, country insights, channels, and time-based trends.
 
-## 🎯 Objectives
-- Provide a 360° analytical view of global sales.
-- Compare performance across regions, countries, and channels.
-- Analyze daily sales trends and seasonal patterns.
-- Monitor profit margins across different markets.
-- Support data-driven strategic decision-making.
+It enables decision-makers to quickly understand profitability, market distribution, and sales behavior across different segments.
 
----
+🧮 Key Metrics
+Metric	Value
+Total Profit	779K+
+Total Sales	3.07M
+Profit Margin %	25.39%
+Sales Count	3000
 
-## 🛠 Tools & Techniques
-- Power BI (`.pbix`)
-- Power Query (ETL & data cleaning)
-- DAX measures & calculations
-- Data modeling (Star Schema)
-- Time-series analysis
-- Geo mapping (country-level visuals)
-- Interactive slicers (Region, Channel, Category, Date)
+These indicators help evaluate profitability, revenue generation, and overall business performance.
 
----
+📈 Visual Insights
+🟦 Sales by Channel
 
-## 📁 Files in this folder
-- `Global Sales Intelligence.pbix` — Main Power BI report.  
-- `sales.csv` — Sales fact table.  
-- `products.csv` — Product catalog (if included).  
-- `channels.csv` — Sales channels data.  
-- `countries.csv` — Country details.  
-- `Global Sales Intelligence.png` — Dashboard preview image.  
-- `README.md` — Project documentation.
+Retail
 
-> **Note:** File names must match exactly with the ones uploaded in this folder for images and links to work correctly.
+Online
+Shows distribution of sales contribution by channel.
 
----
+🟩 Profit Margin % by Country
 
-## 📷 Dashboard Preview
+Displays profit margin for top global markets including:
+
+Brazil
+
+Germany
+
+Australia
+
+China
+
+France
+
+India
+
+South Africa
+
+Argentina
+
+Canada
+
+USA
+
+Most countries maintain a consistent margin around 0.25–0.26.
+
+🗓 Sales by Date
+
+Trend line visualization
+
+Highlights peaks and dips across months
+
+Shows seasonality and performance fluctuations
+
+🌍 Sales by Country (Map View)
+
+Geographical bubble map visualizes total sales volume per country.
+
+🌎 Sales by Region
+
+Regional contribution:
+
+South America
+
+North America
+
+Europe
+
+Asia
+
+Africa
+
+Each region's total share is visualized clearly for strategic comparison.
+
+📋 Country Performance Table
+
+Includes:
+
+Country
+
+Profit Margin %
+
+Sum of Sales Amount
+
+🧭 Filters (Slicers)
+
+To enhance interactivity and deep-dive analysis, the dashboard includes:
+
+Region
+
+Channel
+
+Category
+
+Date Range Slider
+
+These filters allow dynamic exploration of the dataset.
+
+🖼 Dashboard Preview
 
 ![Global Sales Intelligence](Global Sales Intelligence.png)
 
----
+Make sure the image file name matches exactly.
+If the name is different, tell me and I'll fix the path.
 
-## 🔍 Suggested Key Insights (Examples)
-- Sales are distributed between Online and Retail channels depending on country.  
-- Profit margin remains stable across most markets (~0.25–0.26).  
-- Countries like **Brazil, Germany, Australia, France** show high sales contribution.  
-- Daily sales trends highlight peaks around **20K–21K**, indicating strong seasonal demand periods.  
-- Regional performance shows balanced contributions across **North America, Europe, Asia, Africa**.
+🛠 Tools & Techniques Used
 
----
+Power BI Desktop
 
-## 🚀 How to Use
-1. Open `Global Sales Intelligence.pbix` using Power BI Desktop.  
-2. Ensure dataset paths are correct. Update them through **Transform Data → Data Source Settings** if required.  
-3. Use slicers (Region, Channel, Category, Date) to explore the dashboard interactively.  
-4. Replace CSV files with updated versions using the same file names to refresh the data.
+Power Query
 
----
+Data Modeling
 
-## 📦 Tips & Best Practices
-- Avoid using spaces in file names when possible (e.g., `Global_Sales_Intelligence.png`).  
-- If the `.pbix` file is too large, upload it to OneDrive/Google Drive and attach the download link in the README.  
-- Keep the preview image in the same folder as the README to ensure proper rendering.
+DAX Calculations
 
----
+Advanced Visualizations
 
-## 📄 Files Recap
-- `Global Sales Intelligence.pbix`  
-- `Global Sales Intelligence.png`  
-- `sales.csv`  
-- `products.csv`  
-- `channels.csv`  
-- `countries.csv`  
-- `README.md`
+Geo Mapping
 
----
+Slicers & Interactive UI Panel
 
-## 🎯 Conclusion
-The Global Sales Intelligence dashboard provides a complete analytical perspective on worldwide sales, enabling organizations to identify top-performing regions, optimize channels, monitor profit margins, and analyze trends over time.  
-This report is a powerful asset for strategic planning and business growth.
+📦 Files Included
 
+Global_Sales_Intelligence.pbix
+
+Global Sales Intelligence.png
+
+CSV datasets (if included)
+
+🎯 Conclusion
+
+This dashboard delivers a complete analytical perspective for global sales, enabling organizations to:
+
+Identify high-performing regions
+
+Compare countries and sales channels
+
+Track profit margins
+
+Analyze time-based trends
+
+Support strategic decision-making
